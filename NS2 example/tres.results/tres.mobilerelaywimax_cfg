@@ -1,0 +1,27 @@
+Table wmanIfBsProvisionedSfTable
+	Entry
+		Service-Flow-ID = 1
+		MS-MAC = 0:1:0:0:0:6
+		Direction = U
+		QoS-Index = 1
+		Service-Flow-State = provisionedState
+	End Entry
+End Table
+
+Table wmanIfBsServiceClassTable
+	Entry
+		QoS-Index = 1
+		Class-Name = Gold
+		Max-Sustained-Rate = 2000
+	End Entry
+End Table
+
+Table wmanIfBsClassifierRuleTable
+	Entry
+		Rule-Index = 101
+		Service-flow-ID = 1
+		Inet-Dst-Addr = 1.0.2.3
+		Inet-Dst-Mask = 255.255.255.255
+	End Entry
+End Table
+

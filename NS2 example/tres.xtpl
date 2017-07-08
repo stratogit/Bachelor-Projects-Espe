@@ -1,0 +1,585 @@
+<!DOCTYPE NCTUns>
+<NCTUns Version="0.4" >
+ <simulation>
+  <MaxTime>200</MaxTime>
+  <Ratio>100</Ratio>
+  <Optical_Switch_Port_Number>3</Optical_Switch_Port_Number>
+  <MaxX>9000</MaxX>
+  <MaxY>9000</MaxY>
+  <MaxZ>9000</MaxZ>
+  <Proportion>1</Proportion>
+  <RandomSeed>0</RandomSeed>
+  <g_speed>AS_FAST_POSSIBLE</g_speed>
+  <use_ELP>false</use_ELP>
+  <use_processingLoop>false</use_processingLoop>
+ </simulation>
+ <emulation>
+  <use_virRouter>false</use_virRouter>
+  <use_extRouter>false</use_extRouter>
+ </emulation>
+ <SEInformationList Number="0" />
+ <LogPtr>true<Wire>true</Wire>
+  <Wireless>true</Wireless>
+  <GPRS>true</GPRS>
+  <Optical>true</Optical>
+  <WiMAX>true</WiMAX>
+  <MobileWiMAX>true</MobileWiMAX>
+  <MobileRelayWiMAX>true</MobileRelayWiMAX>
+ </LogPtr>
+ <Environment>
+  <DiffServPath></DiffServPath>
+  <DynamicMove>no</DynamicMove>
+  <OnlinePacket>no</OnlinePacket>
+  <GdbStart>no</GdbStart>
+  <OptCtrlPktProcessTime>2</OptCtrlPktProcessTime>
+  <WAVEChannelCoding>False</WAVEChannelCoding>
+  <WiMaxChannelCoding>False</WiMaxChannelCoding>
+  <DVBChannelCoding>False</DVBChannelCoding>
+  <DVBLogFlag>False</DVBLogFlag>
+  <NetworkConfig>
+   <NConfig_80211a>
+    <showNode>true</showNode>
+    <showID>true</showID>
+   </NConfig_80211a>
+   <NConfig_80211b>
+    <showNode>true</showNode>
+    <showID>true</showID>
+   </NConfig_80211b>
+   <NConfig_80211p>
+    <showNode>true</showNode>
+    <showID>true</showID>
+   </NConfig_80211p>
+   <NConfig_GPRS>
+    <showPhoneNode>true</showPhoneNode>
+    <showPhoneID>true</showPhoneID>
+   </NConfig_GPRS>
+   <NConfig_trafficlight>
+    <enable>true</enable>
+    <large_scale>true</large_scale>
+   </NConfig_trafficlight>
+  </NetworkConfig>
+ </Environment>
+ <Background Enable="no" >
+  <Scale>1</Scale>
+  <ScaleX>1</ScaleX>
+  <ScaleY>1</ScaleY>
+  <PosX>0</PosX>
+  <PosY>0</PosY>
+  <Limpid>1</Limpid>
+ </Background>
+ <Topology>
+  <NodeList>
+   <Node Type="ID_NODE_HOST" ID="1" >
+    <Pos>
+     <X>310</X>
+     <Y>510</Y>
+     <Z>0</Z>
+     <CX>326</CX>
+     <CY>526</CY>
+     <CZ>0</CZ>
+     <Left>310</Left>
+     <Right>342</Right>
+     <Top>510</Top>
+     <Bottom>542</Bottom>
+    </Pos>
+    <Size>
+     <Width>32</Width>
+     <Height>32</Height>
+    </Size>
+    <Visible>True</Visible>
+    <VisibleID>True</VisibleID>
+    <DownTime Number="0" />
+    <IDAccumulator>2</IDAccumulator>
+    <InterfaceList Number="1" >
+     <Interface InterfaceID="1" Type="0" ID="1" >
+      <Pos>
+       <X>321</X>
+       <Y>500</Y>
+       <Z>0</Z>
+       <CX>326</CX>
+       <CY>505</CY>
+       <CZ>0</CZ>
+       <Left>321</Left>
+       <Right>331</Right>
+       <Top>500</Top>
+       <Bottom>510</Bottom>
+      </Pos>
+      <Size>
+       <Width>10</Width>
+       <Height>10</Height>
+      </Size>
+      <Visible>True</Visible>
+      <VisibleID>True</VisibleID>
+      <DownTime Number="0" />
+     </Interface>
+    </InterfaceList>
+    <ApplicationList Number="1" >
+     <Application>
+      <BeginTime>3</BeginTime>
+      <EndTime>200</EndTime>
+      <Command>rtcp -p 9000 -w subida.log</Command>
+      <File></File>
+      <SrcPort>0</SrcPort>
+      <DstPort>0</DstPort>
+      <ProtocolType>0</ProtocolType>
+      <DirectionType>0</DirectionType>
+      <TrafficStreamID>0</TrafficStreamID>
+      <TrafficType></TrafficType>
+      <Mean_Data_Rate>0</Mean_Data_Rate>
+      <Nominal_Packet_Size>0</Nominal_Packet_Size>
+      <DelayBound>0</DelayBound>
+      <Maximum_Service_Inteval>0</Maximum_Service_Inteval>
+     </Application>
+    </ApplicationList>
+    <Host_conf>
+     <m_RO>0</m_RO>
+     <m_port></m_port>
+     <System_Routing_Table_Mode>3</System_Routing_Table_Mode>
+     <System_Routing_Deamon></System_Routing_Deamon>
+    </Host_conf>
+   </Node>
+   <Node Type="ID_NODE_80216J_RELAY_PMP_BS" ID="2" >
+    <Pos>
+     <X>319</X>
+     <Y>330</Y>
+     <Z>0</Z>
+     <CX>335</CX>
+     <CY>346</CY>
+     <CZ>0</CZ>
+     <Left>319</Left>
+     <Right>351</Right>
+     <Top>330</Top>
+     <Bottom>362</Bottom>
+    </Pos>
+    <Size>
+     <Width>32</Width>
+     <Height>32</Height>
+    </Size>
+    <Visible>True</Visible>
+    <VisibleID>True</VisibleID>
+    <DownTime Number="0" />
+    <IDAccumulator>3</IDAccumulator>
+    <InterfaceList Number="1" >
+     <Interface InterfaceID="2" Type="0" ID="2" >
+      <Pos>
+       <X>329</X>
+       <Y>362</Y>
+       <Z>0</Z>
+       <CX>334</CX>
+       <CY>367</CY>
+       <CZ>0</CZ>
+       <Left>329</Left>
+       <Right>339</Right>
+       <Top>362</Top>
+       <Bottom>372</Bottom>
+      </Pos>
+      <Size>
+       <Width>10</Width>
+       <Height>10</Height>
+      </Size>
+      <Visible>True</Visible>
+      <VisibleID>True</VisibleID>
+      <DownTime Number="0" />
+     </Interface>
+    </InterfaceList>
+    <ApplicationList Number="0" />
+    <Host_conf>
+     <m_RO>0</m_RO>
+     <m_port></m_port>
+     <System_Routing_Table_Mode>3</System_Routing_Table_Mode>
+     <System_Routing_Deamon></System_Routing_Deamon>
+    </Host_conf>
+    <MInterfaceList Number="1" >
+     <MInterface InterfaceID="1" Type="0" ID="1" >
+      <Pos>
+       <X>335</X>
+       <Y>314</Y>
+       <Z>0</Z>
+       <CX>340</CX>
+       <CY>319</CY>
+       <CZ>0</CZ>
+       <Left>335</Left>
+       <Right>345</Right>
+       <Top>314</Top>
+       <Bottom>324</Bottom>
+      </Pos>
+      <Size>
+       <Width>10</Width>
+       <Height>10</Height>
+      </Size>
+      <Visible>True</Visible>
+      <VisibleID>True</VisibleID>
+      <DownTime Number="0" />
+      <Antenna>
+       <AngularSpeed>0.000000</AngularSpeed>
+       <BeamWidth>6.283185</BeamWidth>
+       <PointDirection>1.570796</PointDirection>
+      </Antenna>
+     </MInterface>
+    </MInterfaceList>
+    <VisibleInteface>True</VisibleInteface>
+    <Router_conf>
+     <UseMobileIP>False</UseMobileIP>
+     <RO>False</RO>
+     <HAorFA>False</HAorFA>
+     <COA></COA>
+     <m_port></m_port>
+     <MN_Ip_List Number="0" />
+     <Wi_Ip_List Number="0" />
+    </Router_conf>
+   </Node>
+   <Node Type="ID_NODE_80216J_RELAY_PMP_RS" ID="3" >
+    <Pos>
+     <X>2318</X>
+     <Y>328</Y>
+     <Z>0</Z>
+     <CX>2334</CX>
+     <CY>344</CY>
+     <CZ>0</CZ>
+     <Left>2318</Left>
+     <Right>2350</Right>
+     <Top>328</Top>
+     <Bottom>360</Bottom>
+    </Pos>
+    <Size>
+     <Width>32</Width>
+     <Height>32</Height>
+    </Size>
+    <Visible>True</Visible>
+    <VisibleID>True</VisibleID>
+    <DownTime Number="0" />
+    <IDAccumulator>2</IDAccumulator>
+    <InterfaceList Number="0" />
+    <ApplicationList Number="0" />
+    <Host_conf>
+     <m_RO>0</m_RO>
+     <m_port></m_port>
+     <System_Routing_Table_Mode>3</System_Routing_Table_Mode>
+     <System_Routing_Deamon></System_Routing_Deamon>
+    </Host_conf>
+    <MInterfaceList Number="1" >
+     <MInterface InterfaceID="1" Type="0" ID="1" >
+      <Pos>
+       <X>2334</X>
+       <Y>312</Y>
+       <Z>0</Z>
+       <CX>2339</CX>
+       <CY>317</CY>
+       <CZ>0</CZ>
+       <Left>2334</Left>
+       <Right>2344</Right>
+       <Top>312</Top>
+       <Bottom>322</Bottom>
+      </Pos>
+      <Size>
+       <Width>10</Width>
+       <Height>10</Height>
+      </Size>
+      <Visible>True</Visible>
+      <VisibleID>True</VisibleID>
+      <DownTime Number="0" />
+      <Antenna>
+       <AngularSpeed>0.000000</AngularSpeed>
+       <BeamWidth>6.283185</BeamWidth>
+       <PointDirection>1.570796</PointDirection>
+      </Antenna>
+     </MInterface>
+    </MInterfaceList>
+    <VisibleInteface>True</VisibleInteface>
+    <DefaultGateway>1.0.1.254</DefaultGateway>
+    <Show>
+     <ShowMobility>True</ShowMobility>
+     <ShowReceiveThreshold>False</ShowReceiveThreshold>
+     <ShowCSThreshold>False</ShowCSThreshold>
+    </Show>
+    <Mobility>
+     <KeepMovingSpeed>True</KeepMovingSpeed>
+     <MoveSpeed>10</MoveSpeed>
+     <PauseTime>0</PauseTime>
+    </Mobility>
+    <MobileIP>
+     <UseMobileIP>False</UseMobileIP>
+     <HA></HA>
+     <MN></MN>
+    </MobileIP>
+   </Node>
+   <Node Type="ID_NODE_80216J_RELAY_PMP_MS" ID="4" >
+    <Pos>
+     <X>4323</X>
+     <Y>300</Y>
+     <Z>0</Z>
+     <CX>4339</CX>
+     <CY>316</CY>
+     <CZ>0</CZ>
+     <Left>4323</Left>
+     <Right>4355</Right>
+     <Top>300</Top>
+     <Bottom>332</Bottom>
+    </Pos>
+    <Size>
+     <Width>32</Width>
+     <Height>32</Height>
+    </Size>
+    <Visible>True</Visible>
+    <VisibleID>True</VisibleID>
+    <DownTime Number="0" />
+    <IDAccumulator>2</IDAccumulator>
+    <InterfaceList Number="0" />
+    <ApplicationList Number="1" >
+     <Application>
+      <BeginTime>3</BeginTime>
+      <EndTime>200</EndTime>
+      <Command>stcp 1.0.1.1 -p 9000</Command>
+      <File></File>
+      <SrcPort>0</SrcPort>
+      <DstPort>0</DstPort>
+      <ProtocolType>0</ProtocolType>
+      <DirectionType>0</DirectionType>
+      <TrafficStreamID>0</TrafficStreamID>
+      <TrafficType></TrafficType>
+      <Mean_Data_Rate>0</Mean_Data_Rate>
+      <Nominal_Packet_Size>0</Nominal_Packet_Size>
+      <DelayBound>0</DelayBound>
+      <Maximum_Service_Inteval>0</Maximum_Service_Inteval>
+     </Application>
+    </ApplicationList>
+    <Host_conf>
+     <m_RO>0</m_RO>
+     <m_port></m_port>
+     <System_Routing_Table_Mode>3</System_Routing_Table_Mode>
+     <System_Routing_Deamon></System_Routing_Deamon>
+    </Host_conf>
+    <MInterfaceList Number="1" >
+     <MInterface InterfaceID="1" Type="0" ID="1" >
+      <Pos>
+       <X>4339</X>
+       <Y>284</Y>
+       <Z>0</Z>
+       <CX>4344</CX>
+       <CY>289</CY>
+       <CZ>0</CZ>
+       <Left>4339</Left>
+       <Right>4349</Right>
+       <Top>284</Top>
+       <Bottom>294</Bottom>
+      </Pos>
+      <Size>
+       <Width>10</Width>
+       <Height>10</Height>
+      </Size>
+      <Visible>True</Visible>
+      <VisibleID>True</VisibleID>
+      <DownTime Number="0" />
+      <Antenna>
+       <AngularSpeed>0.000000</AngularSpeed>
+       <BeamWidth>6.283185</BeamWidth>
+       <PointDirection>1.570796</PointDirection>
+      </Antenna>
+     </MInterface>
+    </MInterfaceList>
+    <VisibleInteface>True</VisibleInteface>
+    <DefaultGateway>1.0.1.254</DefaultGateway>
+    <Show>
+     <ShowMobility>True</ShowMobility>
+     <ShowReceiveThreshold>False</ShowReceiveThreshold>
+     <ShowCSThreshold>False</ShowCSThreshold>
+    </Show>
+    <Mobility>
+     <KeepMovingSpeed>True</KeepMovingSpeed>
+     <MoveSpeed>10</MoveSpeed>
+     <PauseTime>0</PauseTime>
+    </Mobility>
+    <MobileIP>
+     <UseMobileIP>False</UseMobileIP>
+     <HA></HA>
+     <MN></MN>
+    </MobileIP>
+   </Node>
+  </NodeList>
+  <RoadNodeList/>
+  <LinkList>
+   <Link FromID="1" ToID="2" >
+    <FromNode>
+     <Delay>1</Delay>
+     <BER>0</BER>
+     <DownTimeList>
+      <DownTime Number="0" Channel="1" />
+      <DownTime Number="0" Channel="2" />
+      <DownTime Number="0" Channel="3" />
+      <DownTime Number="0" Channel="4" />
+      <DownTime Number="0" Channel="5" />
+      <DownTime Number="0" Channel="6" />
+      <DownTime Number="0" Channel="7" />
+      <DownTime Number="0" Channel="8" />
+      <DownTime Number="0" Channel="9" />
+      <DownTime Number="0" Channel="10" />
+      <DownTime Number="0" Channel="11" />
+      <DownTime Number="0" Channel="12" />
+      <DownTime Number="0" Channel="13" />
+      <DownTime Number="0" Channel="14" />
+      <DownTime Number="0" Channel="15" />
+      <DownTime Number="0" Channel="16" />
+      <DownTime Number="0" Channel="17" />
+      <DownTime Number="0" Channel="18" />
+      <DownTime Number="0" Channel="19" />
+      <DownTime Number="0" Channel="20" />
+      <DownTime Number="0" Channel="21" />
+      <DownTime Number="0" Channel="22" />
+      <DownTime Number="0" Channel="23" />
+      <DownTime Number="0" Channel="24" />
+      <DownTime Number="0" Channel="25" />
+      <DownTime Number="0" Channel="26" />
+      <DownTime Number="0" Channel="27" />
+      <DownTime Number="0" Channel="28" />
+      <DownTime Number="0" Channel="29" />
+      <DownTime Number="0" Channel="30" />
+      <DownTime Number="0" Channel="31" />
+      <DownTime Number="0" Channel="32" />
+      <DownTime Number="0" Channel="33" />
+      <DownTime Number="0" Channel="34" />
+      <DownTime Number="0" Channel="35" />
+      <DownTime Number="0" Channel="36" />
+      <DownTime Number="0" Channel="37" />
+      <DownTime Number="0" Channel="38" />
+      <DownTime Number="0" Channel="39" />
+      <DownTime Number="0" Channel="40" />
+      <DownTime Number="0" Channel="41" />
+      <DownTime Number="0" Channel="42" />
+      <DownTime Number="0" Channel="43" />
+      <DownTime Number="0" Channel="44" />
+      <DownTime Number="0" Channel="45" />
+      <DownTime Number="0" Channel="46" />
+      <DownTime Number="0" Channel="47" />
+      <DownTime Number="0" Channel="48" />
+      <DownTime Number="0" Channel="49" />
+      <DownTime Number="0" Channel="50" />
+      <DownTime Number="0" Channel="51" />
+      <DownTime Number="0" Channel="52" />
+      <DownTime Number="0" Channel="53" />
+      <DownTime Number="0" Channel="54" />
+      <DownTime Number="0" Channel="55" />
+      <DownTime Number="0" Channel="56" />
+      <DownTime Number="0" Channel="57" />
+      <DownTime Number="0" Channel="58" />
+      <DownTime Number="0" Channel="59" />
+      <DownTime Number="0" Channel="60" />
+      <DownTime Number="0" Channel="61" />
+      <DownTime Number="0" Channel="62" />
+      <DownTime Number="0" Channel="63" />
+      <DownTime Number="0" Channel="64" />
+     </DownTimeList>
+    </FromNode>
+    <ToNode>
+     <Delay>1</Delay>
+     <BER>0</BER>
+     <DownTimeList>
+      <DownTime Number="0" Channel="1" />
+      <DownTime Number="0" Channel="2" />
+      <DownTime Number="0" Channel="3" />
+      <DownTime Number="0" Channel="4" />
+      <DownTime Number="0" Channel="5" />
+      <DownTime Number="0" Channel="6" />
+      <DownTime Number="0" Channel="7" />
+      <DownTime Number="0" Channel="8" />
+      <DownTime Number="0" Channel="9" />
+      <DownTime Number="0" Channel="10" />
+      <DownTime Number="0" Channel="11" />
+      <DownTime Number="0" Channel="12" />
+      <DownTime Number="0" Channel="13" />
+      <DownTime Number="0" Channel="14" />
+      <DownTime Number="0" Channel="15" />
+      <DownTime Number="0" Channel="16" />
+      <DownTime Number="0" Channel="17" />
+      <DownTime Number="0" Channel="18" />
+      <DownTime Number="0" Channel="19" />
+      <DownTime Number="0" Channel="20" />
+      <DownTime Number="0" Channel="21" />
+      <DownTime Number="0" Channel="22" />
+      <DownTime Number="0" Channel="23" />
+      <DownTime Number="0" Channel="24" />
+      <DownTime Number="0" Channel="25" />
+      <DownTime Number="0" Channel="26" />
+      <DownTime Number="0" Channel="27" />
+      <DownTime Number="0" Channel="28" />
+      <DownTime Number="0" Channel="29" />
+      <DownTime Number="0" Channel="30" />
+      <DownTime Number="0" Channel="31" />
+      <DownTime Number="0" Channel="32" />
+      <DownTime Number="0" Channel="33" />
+      <DownTime Number="0" Channel="34" />
+      <DownTime Number="0" Channel="35" />
+      <DownTime Number="0" Channel="36" />
+      <DownTime Number="0" Channel="37" />
+      <DownTime Number="0" Channel="38" />
+      <DownTime Number="0" Channel="39" />
+      <DownTime Number="0" Channel="40" />
+      <DownTime Number="0" Channel="41" />
+      <DownTime Number="0" Channel="42" />
+      <DownTime Number="0" Channel="43" />
+      <DownTime Number="0" Channel="44" />
+      <DownTime Number="0" Channel="45" />
+      <DownTime Number="0" Channel="46" />
+      <DownTime Number="0" Channel="47" />
+      <DownTime Number="0" Channel="48" />
+      <DownTime Number="0" Channel="49" />
+      <DownTime Number="0" Channel="50" />
+      <DownTime Number="0" Channel="51" />
+      <DownTime Number="0" Channel="52" />
+      <DownTime Number="0" Channel="53" />
+      <DownTime Number="0" Channel="54" />
+      <DownTime Number="0" Channel="55" />
+      <DownTime Number="0" Channel="56" />
+      <DownTime Number="0" Channel="57" />
+      <DownTime Number="0" Channel="58" />
+      <DownTime Number="0" Channel="59" />
+      <DownTime Number="0" Channel="60" />
+      <DownTime Number="0" Channel="61" />
+      <DownTime Number="0" Channel="62" />
+      <DownTime Number="0" Channel="63" />
+      <DownTime Number="0" Channel="64" />
+     </DownTimeList>
+    </ToNode>
+   </Link>
+  </LinkList>
+  <LabelList/>
+ </Topology>
+ <Group_List>
+  <GroupClassify></GroupClassify>
+  <Group/>
+ </Group_List>
+ <Subnet_List>
+  <SubnetClassify>9 9 </SubnetClassify>
+  <Subnet80211AAdhoc/>
+  <Subnet80211AInfra/>
+  <Subnet80211B/>
+  <Subnet80211E/>
+  <Subnet80211B_mesh/>
+  <Subnet80211P/>
+  <Subnet80216D/>
+  <SubnetADHOC/>
+  <WIMAX_Specify_Gateway_List Number="0" />
+  <SubnetSAT/>
+  <SubnetGPRS/>
+  <Subnet80216E/>
+  <Subnet80216J>
+   <List ID="0" >2 3 4 </List>
+  </Subnet80216J>
+  <Subnet80216JNT/>
+ </Subnet_List>
+ <MobileWimaxMSList>
+  <RecordList/>
+ </MobileWimaxMSList>
+ <MobileRelayWimaxMSList>
+  <RecordList>
+   <Record>
+    <Node_ID>4</Node_ID>
+    <SustainedRate>2000</SustainedRate>
+   </Record>
+  </RecordList>
+ </MobileRelayWimaxMSList>
+ <MobileNTRelayWimaxMSList>
+  <RecordList/>
+ </MobileNTRelayWimaxMSList>
+ <OPT_PATH_LIST/>
+ <OPT_CIRCUIT_LIST/>
+</NCTUns>

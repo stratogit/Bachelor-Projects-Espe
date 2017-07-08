@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="819" delta="unknown" >&quot;<arg fmt="%s" index="1">C:/proyec_final/animaciones.vhd</arg>&quot; line <arg fmt="%d" index="2">65</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;selec&gt;, &lt;led3&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">selani2</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">ENABLE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="unknown" >Found <arg fmt="%d" index="1">8</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">led3</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="info" file="Xst" num="2371" delta="unknown" >HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="unknown" >Found <arg fmt="%d" index="1">8</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">led3$mux0049</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="info" file="Xst" num="2371" delta="unknown" >HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">conta2</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">conta&lt;3&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">Q_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">U2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="unknown" >FF/Latch &lt;<arg fmt="%s" index="1">led3_mux0049_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">animacion</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">CON_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CONTADOR</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Q_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">CON_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CONTADOR</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Q_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">CON_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CONTADOR</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Q_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">CON_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CONTADOR</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Q_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">CON_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CONTADOR</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Q_2&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="unknown" >FF/Latch &lt;<arg fmt="%s" index="1">CON_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CONTADOR</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">CON_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CONTADOR</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Q_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">CON_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CONTADOR</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Q_1&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="unknown" >FF/Latch &lt;<arg fmt="%s" index="1">CON_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">CONTADOR</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">CON_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CONTADOR</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Q_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">CON_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CONTADOR</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Q_1&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="unknown" >Latch &lt;<arg fmt="%s" index="1">led3_mux0049_1</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">animacion</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="unknown" >Latch &lt;<arg fmt="%s" index="1">led3_mux0049_2</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">animacion</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="unknown" >Latch &lt;<arg fmt="%s" index="1">led3_mux0049_3</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">animacion</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="unknown" >Latch &lt;<arg fmt="%s" index="1">led3_mux0049_4</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">animacion</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="unknown" >Latch &lt;<arg fmt="%s" index="1">led3_mux0049_5</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">animacion</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="unknown" >Latch &lt;<arg fmt="%s" index="1">led3_mux0049_6</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">animacion</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="unknown" >Latch &lt;<arg fmt="%s" index="1">led3_mux0049_7</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">animacion</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="unknown" >Latch &lt;<arg fmt="%s" index="1">led3_0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">animacion</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="unknown" >Latch &lt;<arg fmt="%s" index="1">led3_1</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">animacion</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="unknown" >Latch &lt;<arg fmt="%s" index="1">led3_2</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">animacion</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="unknown" >Latch &lt;<arg fmt="%s" index="1">led3_3</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">animacion</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="unknown" >Latch &lt;<arg fmt="%s" index="1">led3_4</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">animacion</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="unknown" >Latch &lt;<arg fmt="%s" index="1">led3_5</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">animacion</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="unknown" >Latch &lt;<arg fmt="%s" index="1">led3_6</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">animacion</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="unknown" >Latch &lt;<arg fmt="%s" index="1">led3_7</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">animacion</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">U2/Q_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">apro_animacion_top</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="unknown" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

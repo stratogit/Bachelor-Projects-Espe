@@ -1,0 +1,4 @@
+vhdl proy_animacion_lib "C:\proyec_final\div_frec.vhd"
+vhdl proy_animacion_lib "C:\proyec_final\cont_paquete.vhd"
+vhdl proy_animacion_lib "C:\proyec_final\animaciones.vhd"
+vhdl work "C:\proyec_final\apro_animacion_top.vhd"

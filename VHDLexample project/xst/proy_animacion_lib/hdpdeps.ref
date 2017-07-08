@@ -1,0 +1,65 @@
+V3 35
+FL C:/proyec_final/animaciones.vhd 2011/05/22.23:23:26 K.31
+PH proy_animacion_lib/animaciones_pkg 1306125969 \
+      FL C:/proyec_final/animaciones.vhd PB ieee/std_logic_1164 1200023565 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567 CD animacion
+EN proy_animacion_lib/animacion 1306125970 \
+      FL C:/proyec_final/animaciones.vhd PB ieee/std_logic_1164 1200023565 \
+      PB ieee/std_logic_arith 1200023566 PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR proy_animacion_lib/animacion/Behavioral 1306125971 \
+      FL C:/proyec_final/animaciones.vhd EN proy_animacion_lib/animacion 1306125970
+FL C:/proyec_final/bcd_7seg.vhd 2011/05/22.01:26:29 K.31
+PH proy_animacion_lib/bcd_7seg_pkg 1306125963 FL C:/proyec_final/bcd_7seg.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567 CD bcd_7segmen
+EN proy_animacion_lib/bcd_7segmen 1306125964 \
+      FL C:/proyec_final/bcd_7seg.vhd PB ieee/std_logic_1164 1200023565 \
+      PB ieee/std_logic_arith 1200023566 PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR proy_animacion_lib/bcd_7segmen/Behavioral 1306125965 \
+      FL C:/proyec_final/bcd_7seg.vhd EN proy_animacion_lib/bcd_7segmen 1306125964
+FL C:/proyec_final/cont_paquete.vhd 2011/05/22.23:45:54 K.31
+PH proy_animacion_lib/cont_paquete_pkg 1306125966 \
+      FL C:/proyec_final/cont_paquete.vhd PB ieee/std_logic_1164 1200023565 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567 CD CONTADOR
+EN proy_animacion_lib/CONTADOR 1306125967 \
+      FL C:/proyec_final/cont_paquete.vhd PB ieee/std_logic_1164 1200023565 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR proy_animacion_lib/CONTADOR/Behavioral 1306125968 \
+      FL C:/proyec_final/cont_paquete.vhd EN proy_animacion_lib/CONTADOR 1306125967
+FL C:/proyec_final/div_frec.vhd 2011/05/20.12:55:47 K.31
+PH proy_animacion_lib/div_frec_pkg 1306125960 FL C:/proyec_final/div_frec.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567 CD divisor
+EN proy_animacion_lib/divisor 1306125961 \
+      FL C:/proyec_final/div_frec.vhd PB ieee/std_logic_1164 1200023565 \
+      PB ieee/std_logic_arith 1200023566 PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR proy_animacion_lib/divisor/Behavioral 1306125962 \
+      FL C:/proyec_final/div_frec.vhd EN proy_animacion_lib/divisor 1306125961
+FL C:/proyec_final/mux2a1.vhd 2011/05/22.00:28:16 K.31
+PH proy_animacion_lib/mux2a1_pckg 1306125972 FL C:/proyec_final/mux2a1.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567 CD muxhex
+EN proy_animacion_lib/muxhex 1306125973 \
+      FL C:/proyec_final/mux2a1.vhd PB ieee/std_logic_1164 1200023565 \
+      PB ieee/std_logic_arith 1200023566 PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR proy_animacion_lib/muxhex/Behavioral 1306125974 \
+      FL C:/proyec_final/mux2a1.vhd EN proy_animacion_lib/muxhex 1306125973
+FL C:/proyec_final/mux_numani_pkg.vhd 2011/05/22.23:22:08 K.31
+PH proy_animacion_lib/mux_numani_pkg 1306125978 \
+      FL C:/proyec_final/mux_numani_pkg.vhd PB ieee/std_logic_1164 1200023565 \
+      PB ieee/std_logic_arith 1200023566 PB ieee/STD_LOGIC_UNSIGNED 1200023567 \
+      CD muxan
+EN proy_animacion_lib/muxan 1306125979 \
+      FL C:/proyec_final/mux_numani_pkg.vhd PB ieee/std_logic_1164 1200023565 \
+      PB ieee/std_logic_arith 1200023566 PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR proy_animacion_lib/muxan/Behavioral 1306125980 \
+      FL C:/proyec_final/mux_numani_pkg.vhd EN proy_animacion_lib/muxan 1306125979
+FL C:/proyec_final/selector_pkg.vhd 2011/05/22.23:39:32 K.31
+PH proy_animacion_lib/selector_pkg 1306125975 FL C:/proyec_final/selector_pkg.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567 CD seleccion
+EN proy_animacion_lib/seleccion 1306125976 \
+      FL C:/proyec_final/selector_pkg.vhd PB ieee/std_logic_1164 1200023565 \
+      PB ieee/std_logic_arith 1200023566 PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR proy_animacion_lib/seleccion/Behavioral 1306125977 \
+      FL C:/proyec_final/selector_pkg.vhd EN proy_animacion_lib/seleccion 1306125976

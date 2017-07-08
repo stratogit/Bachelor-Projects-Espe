@@ -1,0 +1,133 @@
+--------------------------------------------------------------------------------
+Release 10.1 Trace  (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\trce.exe -ise
+C:/proyec_final/proyec_final.ise -intstyle ise -e 3 -s 5 -xml
+apro_animacion_top apro_animacion_top.ncd -o apro_animacion_top.twr
+apro_animacion_top.pcf -ucf pro_ucf.ucf
+
+Design file:              apro_animacion_top.ncd
+Physical constraint file: apro_animacion_top.pcf
+Device,package,speed:     xc3s400,pq208,-5 (PRODUCTION 1.39 2008-01-09)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk50
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+svel<0>     |    5.955(R)|   -2.252(R)|clk50_BUFGP       |   0.000|
+svel<1>     |    5.723(R)|   -1.867(R)|clk50_BUFGP       |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk50
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk50          |    9.462|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+sanima<0>      |led2<0>        |   13.522|
+sanima<0>      |led2<1>        |   13.613|
+sanima<0>      |led2<2>        |   13.183|
+sanima<0>      |led2<3>        |   13.327|
+sanima<0>      |led2<4>        |   13.991|
+sanima<0>      |led2<5>        |   13.913|
+sanima<0>      |led2<6>        |   14.244|
+sanima<0>      |led2<7>        |   13.197|
+sanima<0>      |led<0>         |   11.811|
+sanima<0>      |led<1>         |   12.176|
+sanima<0>      |led<2>         |   11.656|
+sanima<0>      |led<3>         |   11.854|
+sanima<0>      |led<4>         |   12.090|
+sanima<0>      |led<5>         |   12.497|
+sanima<0>      |led<6>         |   12.717|
+sanima<0>      |led<7>         |   13.367|
+sanima<1>      |led2<0>        |   11.580|
+sanima<1>      |led2<1>        |   12.263|
+sanima<1>      |led2<2>        |   12.010|
+sanima<1>      |led2<3>        |   12.009|
+sanima<1>      |led2<4>        |   12.085|
+sanima<1>      |led2<5>        |   12.422|
+sanima<1>      |led2<6>        |   12.780|
+sanima<1>      |led2<7>        |   11.302|
+sanima<1>      |led<0>         |    9.869|
+sanima<1>      |led<1>         |   10.826|
+sanima<1>      |led<2>         |   10.483|
+sanima<1>      |led<3>         |   10.536|
+sanima<1>      |led<4>         |   10.184|
+sanima<1>      |led<5>         |   11.006|
+sanima<1>      |led<6>         |   11.253|
+sanima<1>      |led<7>         |   11.472|
+sanima<2>      |led2<0>        |   11.664|
+sanima<2>      |led2<1>        |   11.710|
+sanima<2>      |led2<2>        |   11.774|
+sanima<2>      |led2<3>        |   11.467|
+sanima<2>      |led2<4>        |   11.846|
+sanima<2>      |led2<5>        |   12.077|
+sanima<2>      |led2<6>        |   12.217|
+sanima<2>      |led2<7>        |   10.762|
+sanima<2>      |led<0>         |    9.953|
+sanima<2>      |led<1>         |   10.273|
+sanima<2>      |led<2>         |   10.247|
+sanima<2>      |led<3>         |    9.994|
+sanima<2>      |led<4>         |    9.945|
+sanima<2>      |led<5>         |   10.661|
+sanima<2>      |led<6>         |   10.690|
+sanima<2>      |led<7>         |   10.932|
+u_d            |led2<0>        |   14.214|
+u_d            |led2<1>        |   14.305|
+u_d            |led2<2>        |   13.875|
+u_d            |led2<3>        |   14.019|
+u_d            |led2<4>        |   14.683|
+u_d            |led2<5>        |   14.605|
+u_d            |led2<6>        |   14.936|
+u_d            |led2<7>        |   13.889|
+u_d            |led<0>         |   12.503|
+u_d            |led<1>         |   12.868|
+u_d            |led<2>         |   12.348|
+u_d            |led<3>         |   12.546|
+u_d            |led<4>         |   12.782|
+u_d            |led<5>         |   13.189|
+u_d            |led<6>         |   13.409|
+u_d            |led<7>         |   14.059|
+---------------+---------------+---------+
+
+
+Analysis completed Sun May 22 23:47:03 2011 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 81 MB
+
+
+

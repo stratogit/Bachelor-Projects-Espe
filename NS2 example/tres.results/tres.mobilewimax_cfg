@@ -1,0 +1,9 @@
+Table wmanIfBsProvisionedSfTable
+End Table
+
+Table wmanIfBsServiceClassTable
+End Table
+
+Table wmanIfBsClassifierRuleTable
+End Table
+

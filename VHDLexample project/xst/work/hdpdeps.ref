@@ -1,0 +1,24 @@
+V3 13
+FL C:/proyec_final/apro_animacion_top.vhd 2011/05/22.23:22:12 K.31
+EN work/cont_display_top 1305860467 FL C:/proyec_final/apro_animacion_top.vhd \
+      LB proy_animacion_lib PB ieee/std_logic_1164 1200023565 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567 PH proy_animacion_lib/div_frec_pkg 1306125960 \
+      PH proy_animacion_lib/cont_paquete_pkg 1306125966 \
+      PH proy_animacion_lib/animaciones_pkg 1306125969
+AR work/cont_display_top/structural 1305860468 \
+      FL C:/proyec_final/apro_animacion_top.vhd EN work/cont_display_top 1305860467 \
+      CP divisor CP CONTADOR CP animacion
+EN work/apro_animacion_top 1306125981 \
+      FL C:/proyec_final/apro_animacion_top.vhd LB proy_animacion_lib \
+      PB ieee/std_logic_1164 1200023565 PB ieee/STD_LOGIC_UNSIGNED 1200023567 \
+      PH proy_animacion_lib/div_frec_pkg 1306125960 \
+      PH proy_animacion_lib/bcd_7seg_pkg 1306125963 \
+      PH proy_animacion_lib/cont_paquete_pkg 1306125966 \
+      PH proy_animacion_lib/animaciones_pkg 1306125969 \
+      PH proy_animacion_lib/mux2a1_pckg 1306125972 \
+      PH proy_animacion_lib/selector_pkg 1306125975 \
+      PH proy_animacion_lib/mux_numani_pkg 1306125978
+AR work/apro_animacion_top/structural 1306125982 \
+      FL C:/proyec_final/apro_animacion_top.vhd EN work/apro_animacion_top 1306125981 \
+      CP seleccion CP divisor CP CONTADOR CP animacion CP muxan CP bcd_7segmen \
+      CP muxhex
