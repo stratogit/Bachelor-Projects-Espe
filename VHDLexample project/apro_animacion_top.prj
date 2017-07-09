@@ -1,8 +1,0 @@
-vhdl proy_animacion_lib "selector_pkg.vhd"
-vhdl proy_animacion_lib "mux_numani_pkg.vhd"
-vhdl proy_animacion_lib "mux2a1.vhd"
-vhdl proy_animacion_lib "div_frec.vhd"
-vhdl proy_animacion_lib "cont_paquete.vhd"
-vhdl proy_animacion_lib "bcd_7seg.vhd"
-vhdl proy_animacion_lib "animaciones.vhd"
-vhdl work "apro_animacion_top.vhd"

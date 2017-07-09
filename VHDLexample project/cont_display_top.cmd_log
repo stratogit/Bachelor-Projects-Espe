@@ -1,8 +1,0 @@
-xst -ise "C:/proyec_final/proyec_final.ise" -intstyle ise -ifn "C:/proyec_final/cont_display_top.xst" -ofn "C:/proyec_final/cont_display_top.syr"
-xst -ise "C:/proyec_final/proyec_final.ise" -intstyle ise -ifn "C:/proyec_final/cont_display_top.xst" -ofn "C:/proyec_final/cont_display_top.syr"
-xst -ise "C:/proyec_final/proyec_final.ise" -intstyle ise -ifn "C:/proyec_final/cont_display_top.xst" -ofn "C:/proyec_final/cont_display_top.syr"
-ngdbuild -ise "C:/proyec_final/proyec_final.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s400-pq208-5 "cont_display_top.ngc" cont_display_top.ngd
-map -ise "C:/proyec_final/proyec_final.ise" -intstyle ise -p xc3s400-pq208-5 -cm area -pr off -k 4 -c 100 -o cont_display_top_map.ncd cont_display_top.ngd cont_display_top.pcf
-par -ise "C:/proyec_final/proyec_final.ise" -w -intstyle ise -ol std -t 1 cont_display_top_map.ncd cont_display_top.ncd cont_display_top.pcf
-trce -ise "C:/proyec_final/proyec_final.ise" -intstyle ise -e 3 -s 5 -xml cont_display_top cont_display_top.ncd -o cont_display_top.twr cont_display_top.pcf -ucf cont_display_top.ucf
-bitgen -ise "C:/proyec_final/proyec_final.ise" -intstyle ise -f cont_display_top.ut cont_display_top.ncd
